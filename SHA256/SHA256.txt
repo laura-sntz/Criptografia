@@ -1,0 +1,24 @@
+SHA256 - Security Hash Algorithm 256 bits
+
+É amplamente utilizado na área de assinaturas digitais e certificação, para identificar se o conteúdo foi alterado ou não.
+
+Usou:
+
+- Assinatura digital e certificação;
+- Armazenamento de dados;
+- Verificação da integridade de arquivos;
+- Criptomoedas.
+
+Como funciona:
+
+Primeiro:
+
+A mensagem é preenchida para ser um múltiplo de 512.
+O bit 1 é adicionado no final da mensagem.
+Os 0 são adicionados até que o comprimento seja 448 bits módulo 512 (64).
+Os últimos 64 bits armazenam o tamanho original da mensagem.
+
+Segundo:
+
+Terceiro:
+
